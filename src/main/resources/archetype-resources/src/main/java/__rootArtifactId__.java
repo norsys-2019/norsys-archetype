@@ -4,7 +4,7 @@ package fr.norsys.technomaker.${artifactId};
  * Hello world!
  *
  */
-public class App 
+public class ${artifactId}
 {
     public static void main( String[] args )
     {
