@@ -13,19 +13,19 @@
 		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/java/fr/norsys/technomaker/Test/model</directory>
+			<directory>src/main/java/fr/norsys/technomaker/__rootArtifactId__/model</directory>
 		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/java/fr/norsys/technomaker/Test/controller</directory>
+			<directory>src/main/java/fr/norsys/technomaker/__rootArtifactId__/controller</directory>
 		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/java/fr/norsys/technomaker/Test/service</directory>
+			<directory>src/main/java/fr/norsys/technomaker/__rootArtifactId__/service</directory>
 		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/resources</directory>
+			<directory>src/main/resources/</directory>
 			<includes>
 				<include>**/*.properties</include>
 			</includes>
@@ -34,10 +34,11 @@
 		<fileSet filtered="true" encoding="UTF-8">
 			<directory>src/main/resources/db/migration</directory>
 		</fileSet>
-		
+
 		<fileSet filtered="true" encoding="UTF-8">
 			<directory>src/main/resources/db/sql</directory>
 		</fileSet>
+
 
 		<fileSet filtered="true" packaged="true" encoding="UTF-8">
 			<directory>src/test/java</directory>
@@ -58,4 +59,5 @@
 			</includes>
 		</fileSet>
 	</fileSets>
+
 </archetype-descriptor>
