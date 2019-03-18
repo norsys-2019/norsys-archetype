@@ -26,6 +26,26 @@
 		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/java/fr/norsys/technomaker/__rootArtifactId__/conf</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/java/fr/norsys/technomaker/__rootArtifactId__/client</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/java/fr/norsys/technomaker/__rootArtifactId__/dto</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/java/fr/norsys/technomaker/__rootArtifactId__/enumeration</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/java/fr/norsys/technomaker/__rootArtifactId__/repository</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
 			<directory>src/main/resources/</directory>
 			<includes>
 				<include>**/*.properties</include>
