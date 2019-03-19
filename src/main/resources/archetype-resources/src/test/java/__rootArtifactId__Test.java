@@ -1,4 +1,4 @@
-package fr.norsys.technomaker.${artifactId};
+package ${groupId}.${artifactId};
 
 import junit.framework.Test;
 import junit.framework.TestCase;
