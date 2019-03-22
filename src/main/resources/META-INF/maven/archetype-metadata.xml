@@ -44,8 +44,8 @@
 		<fileSet filtered="true" encoding="UTF-8">
 			<directory>src/main/java/fr/norsys/sinaf/__rootArtifactId__/repository</directory>
 		</fileSet>
-		
-		
+
+
 		<fileSet filtered="true" encoding="UTF-8">
 			<directory>src/test/java/fr/norsys/sinaf/__rootArtifactId__/model</directory>
 		</fileSet>
@@ -77,15 +77,15 @@
 		<fileSet filtered="true" encoding="UTF-8">
 			<directory>src/test/java/fr/norsys/sinaf/__rootArtifactId__/repository</directory>
 		</fileSet>
-	
-		
 
-		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/resources/</directory>
-			<includes>
-				<include>**/*.properties</include>
-			</includes>
-		</fileSet>
+
+
+		 <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/resources</directory>
+      <includes>
+        <include>**/*.properties</include>
+      </includes>
+    </fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
 			<directory>src/main/resources/db/migration</directory>
