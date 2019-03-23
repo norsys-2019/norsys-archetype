@@ -14,78 +14,79 @@
 		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/java/fr/norsys/sinaf/__rootArtifactId__/model</directory>
-		</fileSet>
-
-		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/java/fr/norsys/sinaf/__rootArtifactId__/controller</directory>
-		</fileSet>
-
-		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/java/fr/norsys/sinaf/__rootArtifactId__/service</directory>
-		</fileSet>
-
-		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/java/fr/norsys/sinaf/__rootArtifactId__/conf</directory>
-		</fileSet>
-
-		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/java/fr/norsys/sinaf/__rootArtifactId__/client</directory>
-		</fileSet>
-
-		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/java/fr/norsys/sinaf/__rootArtifactId__/dto</directory>
-		</fileSet>
-
-		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/java/fr/norsys/sinaf/__rootArtifactId__/enumeration</directory>
-		</fileSet>
-
-		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/java/fr/norsys/sinaf/__rootArtifactId__/repository</directory>
+			<directory>src/main/java/__packageInPathFormat__/controller</directory>
 		</fileSet>
 
 
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/test/java/fr/norsys/sinaf/__rootArtifactId__/model</directory>
+			<directory>src/main/java/__packageInPathFormat__/model</directory>
 		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/test/java/fr/norsys/sinaf/__rootArtifactId__/controller</directory>
+			<directory>src/main/java/__packageInPathFormat__/service</directory>
 		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/test/java/fr/norsys/sinaf/__rootArtifactId__/service</directory>
+			<directory>src/main/java/__packageInPathFormat__/conf</directory>
 		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/test/java/fr/norsys/sinaf/__rootArtifactId__/conf</directory>
+			<directory>src/main/java/__packageInPathFormat__/client</directory>
 		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/test/java/fr/norsys/sinaf/__rootArtifactId__/client</directory>
+			<directory>src/main/java/__packageInPathFormat__/dto</directory>
 		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/test/java/fr/norsys/sinaf/__rootArtifactId__/dto</directory>
+			<directory>src/main/java/__packageInPathFormat__/enumeration</directory>
 		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/test/java/fr/norsys/sinaf/__rootArtifactId__/enumeration</directory>
+			<directory>src/main/java/__packageInPathFormat__/repository</directory>
+		</fileSet>
+
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/model</directory>
 		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/test/java/fr/norsys/sinaf/__rootArtifactId__/repository</directory>
+			<directory>src/test/java/__packageInPathFormat__/controller</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/service</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/conf</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/client</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/dto</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/enumeration</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/repository</directory>
 		</fileSet>
 
 
 
-		 <fileSet filtered="true" encoding="UTF-8">
-      <directory>src/main/resources</directory>
-      <includes>
-        <include>**/*.properties</include>
-      </includes>
-    </fileSet>
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/resources</directory>
+			<includes>
+				<include>**/*.properties</include>
+			</includes>
+		</fileSet>
 
 		<fileSet filtered="true" encoding="UTF-8">
 			<directory>src/main/resources/db/migration</directory>
@@ -114,7 +115,8 @@
 				<include>build.gradle</include>
 			</includes>
 		</fileSet>
-	</fileSets>
 
+
+	</fileSets>
 
 </archetype-descriptor>
