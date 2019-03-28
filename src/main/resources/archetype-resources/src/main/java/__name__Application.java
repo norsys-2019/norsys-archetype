@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class ${artifactId}Application
+public class ${name}Application
 {
     public static void main( String[] args )
     {
-    	SpringApplication.run(${artifactId}Application.class, args);
+    	SpringApplication.run(${name}Application.class, args);
     }
 }
