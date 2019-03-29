@@ -10,4 +10,4 @@ Etape 2:
     mvn archetype:crawl
     
 Etape 3:
-mvn archetype:generate -DarchetypeGroupId=fr.norsys.sinaf -DarchetypeArtifactId=sinaf-archetype -DarchetypeVersion=1.0
+mvn archetype:generate -DarchetypeGroupId=fr.norsys.sinaf -DarchetypeArtifactId=sinaf-archetype -DarchetypeVersion=1.0 -Dname=xxxx -Dport=xxxx
