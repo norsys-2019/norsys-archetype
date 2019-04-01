@@ -1,28 +1,21 @@
-## Création d'un nouveau projet à partir de notre archetype:
+## Creating a new project from the archetype:
 
 
-Etape 1:
-
-  Importer l'archetype depuis git avec les commandes suivantes:
+### step 1 : 
+Run the following commands:
   
-  git clone https://github.com/norsys-2019/norsys-archetype.git
+    git clone https://github.com/norsys-2019/norsys-archetype.git
   
-  cd norsys-archetype
-  
-  git checkout Feature/initialize project 
-  
-Etape 2:
-
- Dans le dossier norsys-archtype,on exécute les commandes suivantes:
+    cd norsys-archetype
   
     mvn install
 
-Etape 3:
+### step 2 : 
 
-Dans le dossier où on veux créer notre projet,on execute la commande:
+Generate the project:
 
-mvn archetype:generate -DarchetypeGroupId=fr.norsys.sinaf -DarchetypeArtifactId=sinaf-archetype -DarchetypeVersion=1.0 -Dname=xxxx -Dport=xxxx
+    mvn archetype:generate -DarchetypeGroupId=fr.norsys.sinaf -DarchetypeArtifactId=sinaf-archetype -DarchetypeVersion=1.0 -Dname=xxxx -Dport=xxxx
 
-Dans la console,on doit spécifier les propriétés comme suit:
 
-![tableauparam](https://user-images.githubusercontent.com/48215221/55246525-aec6dc80-5245-11e9-91ee-83a500ea16d9.PNG)
+
+![Capture2](https://user-images.githubusercontent.com/48215221/55362256-5ad02800-54d1-11e9-8c06-5e3f63b31ede.PNG)
