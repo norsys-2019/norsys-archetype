@@ -14,7 +14,7 @@ Run the following commands:
 
 Generate the project:
 
-    mvn archetype:generate -DarchetypeGroupId=fr.norsys.sinaf -DarchetypeArtifactId=sinaf-archetype -DarchetypeVersion=1.0 -Dname=xxxx -Dport=xxxx
+    mvn archetype:generate -DarchetypeGroupId=fr.norsys.sinaf -DarchetypeArtifactId=sinaf-archetype -DarchetypeVersion=1.0 -Dport=xxxx
 
 
 
