@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<archetype-descriptor
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
+	name="spring-boot-sample-simple"
+	xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<requiredProperties>
+		<requiredProperty key="port" />
+		<requiredProperty key="gitignore">
+			<defaultValue>.gitignore</defaultValue>
+		</requiredProperty>
+
+	</requiredProperties>
+
+	<fileSets>
+		<fileSet filtered="true" packaged="true" encoding="UTF-8">
+			<directory>src/main/java</directory>
+			<includes>
+				<include>**/*.java</include>
+			</includes>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/java/__packageInPathFormat__/controller</directory>
+		</fileSet>
+
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/java/__packageInPathFormat__/model</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/java/__packageInPathFormat__/service</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/java/__packageInPathFormat__/conf</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/java/__packageInPathFormat__/client</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/java/__packageInPathFormat__/dto</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/java/__packageInPathFormat__/enumeration</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/java/__packageInPathFormat__/repository</directory>
+		</fileSet>
+
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/model</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/controller</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/service</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/service/impl</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/conf</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/client</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/dto</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/enumeration</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/repository</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/java/__packageInPathFormat__/repository/impl</directory>
+		</fileSet>
+
+
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/resources</directory>
+			<includes>
+				<include>**/*.properties</include>
+			</includes>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory></directory>
+			<includes>
+				<include>__gitignore__</include>
+			</includes>
+		</fileSet>
+
+
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/resources/db/migration</directory>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/main/resources/db/sql</directory>
+		</fileSet>
+
+
+		<fileSet filtered="true" packaged="true" encoding="UTF-8">
+			<directory>src/test/java</directory>
+			<includes>
+				<include>**/*.java</include>
+			</includes>
+		</fileSet>
+
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory>src/test/resources</directory>
+			<includes>
+				<include>**/*.properties</include>
+			</includes>
+		</fileSet>
+		<fileSet encoding="UTF-8">
+			<directory></directory>
+			<includes>
+				<include>build.gradle</include>
+			</includes>
+		</fileSet>
+
+
+	</fileSets>
+
+</archetype-descriptor>
